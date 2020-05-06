@@ -1,0 +1,59 @@
+* {
+    padding: 0em;
+    margin: 0em;
+}
+
+
+ul li {
+
+    list-style: none;
+}
+
+a {
+
+    text-decoration: none;
+}
+
+.head-buttons a{
+
+        padding: 2px;
+}
+
+.separator {
+
+    width: 70px;
+    height: 2px;
+    background-color: green;
+    display:block
+}
+
+.projects marquee{
+
+    height: 100px;
+}
+.fa-facebook {
+    
+    color: white;
+  }
+nav ul{
+    padding: 5px;
+}
+
+.img1::before{
+    content: "_";
+    height: 2px;
+    left: 10px;
+    position: absolute;
+    top: 30px;
+    width: 36px;
+    color: green;
+}
+.img1::after{
+    content: "_";
+    height: 2px;
+    left: 10px;
+    position: absolute;
+    top: 30px;
+    width: 36px;
+    color: green;
+}
